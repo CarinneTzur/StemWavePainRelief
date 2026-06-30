@@ -1231,6 +1231,17 @@ h2 {
   margin: 0;
 }
 
+.site-footer p a {
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  transition: border-color 160ms ease, color 160ms ease;
+}
+
+.site-footer p a:hover {
+  border-color: var(--lime);
+  color: var(--lime);
+}
+
 .footer-brand {
   display: inline-flex;
   align-items: center;
