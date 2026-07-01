@@ -1286,20 +1286,12 @@ h2 {
   }
 
   .mobile-brand {
-    display: block;
-    width: 112px;
-    overflow: hidden;
-    border-radius: 7px;
-  }
-
-  .mobile-brand img {
-    display: block;
-    width: 100%;
-    height: auto;
+    display: none;
   }
 
   .menu-button {
     display: grid;
+    margin-left: auto;
     gap: 6px;
     width: 40px;
     height: 40px;
